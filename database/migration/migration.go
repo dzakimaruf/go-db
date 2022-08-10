@@ -21,7 +21,7 @@ type migration struct {
 
 func Init() {
 	mgConfigurations := map[string]Migration{
-		"go-db": &migration{
+		"GO": &migration{
 			DbModels: &[]interface{}{
 				// &model.UserEntityModel{},
 				// &model.JuzEntityModel{},

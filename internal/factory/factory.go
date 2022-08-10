@@ -23,7 +23,7 @@ func NewFactory() *Factory {
 }
 
 func (f *Factory) SetupDb() {
-	db, err := database.Connection("QURAN")
+	db, err := database.Connection("GO")
 	if err != nil {
 		panic("Failed setup db, connection is undefined")
 	}

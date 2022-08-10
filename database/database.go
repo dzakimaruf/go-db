@@ -16,16 +16,16 @@ var (
 
 func Init() {
 	dbConfigurations := map[string]Db{
-		"QURAN": &dbPostgreSQL{
+		"GO": &dbPostgreSQL{
 			db: db{
-				Host: os.Getenv("DB_HOST_QURAN"),
-				User: os.Getenv("DB_USER_QURAN"),
-				Pass: os.Getenv("DB_PASS_QURAN"),
-				Port: os.Getenv("DB_PORT_QURAN"),
-				Name: os.Getenv("DB_NAME_QURAN"),
+				Host: os.Getenv("DB_HOST_GO"),
+				User: os.Getenv("DB_USER_GO"),
+				Pass: os.Getenv("DB_PASS_GO"),
+				Port: os.Getenv("DB_PORT_GO"),
+				Name: os.Getenv("DB_NAME_GO"),
 			},
-			SslMode: os.Getenv("DB_SSLMODE_QURAN"),
-			Tz:      os.Getenv("DB_TZ_QURAN"),
+			SslMode: os.Getenv("DB_SSLMODE_GO"),
+			Tz:      os.Getenv("DB_TZ_GO"),
 		},
 	}
 
