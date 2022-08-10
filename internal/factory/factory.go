@@ -12,6 +12,7 @@ type Factory struct {
 	// UserRepository repository.User
 	// JuzRepository  repository.Juz
 	// SurahRepository  repository.Surah
+	//
 }
 
 func NewFactory() *Factory {
